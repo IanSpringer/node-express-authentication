@@ -1,3 +1,20 @@
 <% include ./partials/header %>
-
 <a href='/logout'>Logout</a>
+  <div class="home-wrapper">
+    <h1>Welcome to WeatherMan</h1>
+    <h4>Please enter your location</h4>
+    <div class="form-group row">
+      <div class="col-sm-8">
+        <input type="email" class="form-control" id="location-input" placeholder="Enter your city...">
+      </div>
+      <div class="col-sm-8 btn-div">
+        <input type="submit" class="btn btn-primary" id="location-btn">
+      </div>
+    </div>
+    <div id="your-weather">
+      <p id="weather"></p>
+      <p id="temperature"></p>
+      <p id="humidity"></p>
+    </div>
+  </div>
+
